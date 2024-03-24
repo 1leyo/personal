@@ -1,5 +1,6 @@
 body {
     background-color: gray;
+    font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -26,6 +27,7 @@ a {
 }
 
 .link button {
+    font-family: "Montserrat", sans-serif;
     font-size: 18pt;
     width: 300px;
     height: 50px;
@@ -48,7 +50,8 @@ a {
 }
 
 .container .header {
-    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 5px;
 }
 
 .container .header img {
@@ -59,4 +62,6 @@ a {
     padding: 0;
     margin: 0;
     font-size: 28pt;
+    font-weight: 600;
+    color: white;
 }

@@ -19,4 +19,5 @@ body {
 
 .container .header img {
     height: 170px;
+    padding: 0;
 }
