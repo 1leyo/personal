@@ -9,6 +9,7 @@ a {
 }
 
 .container {
+    width: 20%;
     background: rgba(255, 255, 255, 0.13);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -19,17 +20,19 @@ a {
     padding: 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-evenly;
 }
 
 .link {
     padding: 10px;
+    width: 100%;
 }
 
 .link button {
     font-family: "Montserrat", sans-serif;
-    font-size: 18pt;
-    width: 300px;
+    font-size: 1.6rem;
+    width: 100%;
     height: 50px;
     color: white;
     background: rgba(255, 255, 255, 0.10);
@@ -38,10 +41,12 @@ a {
     backdrop-filter: blur(9.1px);
     -webkit-backdrop-filter: blur(9.1px);
     border: 1px solid rgba(255, 255, 255, 0.24);
+    transition: transform 0.1s;
 }
 
 .link button:hover {
     background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
 }
 
 .link button:active {
@@ -51,7 +56,8 @@ a {
 
 .container .header {
     padding-top: 0;
-    padding-bottom: 5px;
+    filter: drop-shadow(0 4px 15px rgba(0, 0, 0, 0.1));
+    padding-bottom: 5%;
 }
 
 .container .header img {
