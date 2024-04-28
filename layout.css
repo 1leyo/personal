@@ -3,6 +3,25 @@ body {
     margin: 0;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    margin-block: 3%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-block-end: 10px;
+    
+    & img {
+        width: 40%;
+        height: auto;
+    }
+
+    & h1 {
+        margin: 1%;
+    }
+}
+
 .container {
     position: absolute;
     top: 50%;
@@ -10,17 +29,13 @@ body {
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    min-width: 50%;
+    width: 50%;
     background-color: red;
 
     align-items: center;
 
     padding: 1%;
     padding-inline: 1.5%;
-}
-
-.container header img {
-    height: 160px;
 }
 
 .links {

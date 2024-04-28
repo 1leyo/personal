@@ -16,8 +16,15 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.24);
 }
 
-header img {
-    border-radius: 100%;
+header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    & img {
+        border-radius: 100%;
+    }
+
+    & h1 {
+        color: white;
+    }
 }
 
 .links {
