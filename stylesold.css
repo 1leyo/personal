@@ -1,0 +1,76 @@
+/* this file is not in use */
+/* this file exists only as a reference while the new system is being implemented */
+
+body {
+    background-color: gray;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: 20%;
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.1px);
+    -webkit-backdrop-filter: blur(4.1px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link {
+    padding: 10px;
+    width: 100%;
+}
+
+.link button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: rgba(255, 255, 255, 0.10);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    transition: transform 0.1s;
+}
+
+.link button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+}
+
+.link button:active {
+    background-color: rgba(255, 255, 255, 0.30);
+    transform: translateY(2px);
+}
+
+.container .header {
+    padding-top: 0;
+    filter: drop-shadow(0 4px 15px rgba(0, 0, 0, 0.1));
+    padding-bottom: 5%;
+}
+
+.container .header img {
+    border-radius: 50%;
+}
+
+.container .header p {
+    padding: 0;
+    margin: 0;
+    font-size: 28pt;
+    font-weight: 600;
+    color: white;
+}
