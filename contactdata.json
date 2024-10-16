@@ -1,0 +1,27 @@
+[
+    {
+        "url":"https://matrix.to/#/@leyo:matrix.org",
+        "platformName":"Matrix",
+        "displayedUserName":"@leyo:matrix.org"
+    },
+    {
+        "url":"mailto:leyo@not-dead.com",
+        "platformName":"E-Mail",
+        "displayedUserName":"leyo@not-dead.com"
+    },
+    {
+        "url":"https://github.com/1leyo",
+        "platformName":"GitHub",
+        "displayedUserName":"1leyo"
+    },
+    {
+        "url":"https://discord.com/users/254246464614563842",
+        "platformName":"Discord",
+        "displayedUserName":"leyo96"
+    },
+    {
+        "url":"https://www.instagram.com/leoowmr/",
+        "platformName":"Instagram",
+        "displayedUserName":"leoowmr"
+    }
+]
